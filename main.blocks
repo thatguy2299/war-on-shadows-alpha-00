@@ -1,0 +1,10 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="HZIZ~8lAu-i+~W3,Hbso">mySprite</variable><variable type="KIND_SpriteKind" id="CV1Z4jSeWTS5C,KW@|VK">Player</variable><variable type="KIND_SpriteKind" id="}Yf:U{:4#Ef0@Lro|)Ab">Projectile</variable><variable type="KIND_SpriteKind" id=";!dMVUk!?mU!a0Xx;)xZ">Food</variable><variable type="KIND_SpriteKind" id="ql6KR[8Lq9ukG!0?`UNw">Enemy</variable></variables><block type="pxt-on-start" id="3eY+E[)2d/yW-?Lh_nId" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Cw|2:2Dd%$ZUKT:{X}wY"><field name="VAR" id="HZIZ~8lAu-i+~W3,Hbso">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="(.}pL_#2+#adh{T%e:o2"><value name="img"><shadow type="screen_image_picker" id="4O-kwf?$f:}DvUN`F[ow"><field name="img">img`
+. . . . . . . . 
+. 1 1 1 1 1 1 . 
+. 1 f 1 1 f 1 . 
+. 1 f 1 1 f 1 . 
+. 1 1 1 1 1 1 . 
+. . . 1 1 . . . 
+. 1 . 1 1 . 1 . 
+. . . 1 1 . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"4O-kwf?$f:}DvUN`F[ow"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="$Htr/XN`69EROZ`ExLA,"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="2TC3GqZMe@F?2u@1=kvU"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="2Hp^5J-q^Iv~_[[q+`rY"><field name="VAR" id="HZIZ~8lAu-i+~W3,Hbso">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="Xy_@LhZlj4q;-?u3Cn~5"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="Ig~YHTL}jJA8uA|uZdbd"><field name="speed">100</field></shadow></value><next><block type="camerafollow" id="AjY`6FuBZj~VxxO[WNT#"><value name="sprite"><block type="variables_get" id="wcA-Rr)ZsJ2(@T6j[5@t"><field name="VAR" id="HZIZ~8lAu-i+~W3,Hbso">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
